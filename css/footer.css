@@ -1,0 +1,25 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px 10px 20px;
+}
+
+.footer-icons__img {
+  width: 40px;
+}
