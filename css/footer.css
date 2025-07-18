@@ -18,8 +18,24 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0px 20px 10px 20px;
+  cursor: pointer;
 }
 
+@keyframes icons-move-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .footer-icons__img {
   width: 40px;
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 1s icons-move-up;
 }
